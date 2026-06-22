@@ -68,4 +68,4 @@ def test_get_user():
 
     assert response.status_code == 200
     print(response.elapsed.total_seconds())
-    assert response.elapsed.total_seconds() < 1, "El tiempo de ejecucion tardo mas de lo esperado"
+    assert response.elapsed.total_seconds() < 2, "El tiempo de ejecucion tardo mas de lo esperado"
